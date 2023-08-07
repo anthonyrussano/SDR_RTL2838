@@ -17,3 +17,14 @@ Receive ADS-B signals and track flights:
 sudo apt install dump1090-mutability
 dump1090-mutability --interactive
 ```
+
+Flask App Usage:
+
+```
+Start capturing metrics...
+Use the binary included in this repo:
+./dump1090 --quiet --write-json json/
+Run flask app
+pipenv install flask
+pipenv run python app.py
+```
