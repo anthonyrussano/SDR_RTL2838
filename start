@@ -1,0 +1,2 @@
+./dump1090 --quiet --net --write-json json/ &
+pipenv run python app.py

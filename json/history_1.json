@@ -1,0 +1,9 @@
+{ "now" : 1691387670.3,
+  "messages" : 469,
+  "aircraft" : [
+    {"hex":"a2bc5a","altitude":4450,"mlat":[],"tisb":[],"messages":7,"seen":0.0,"rssi":-29.4},
+    {"hex":"a1311e","squawk":"3236","flight":"SKW3407 ","lat":32.979492,"lon":-117.351343,"nucp":7,"seen_pos":0.2,"altitude":11025,"vert_rate":-960,"track":145,"speed":274,"category":"A3","mlat":[],"tisb":[],"messages":105,"seen":0.0,"rssi":-21.6},
+    {"hex":"ad1927","squawk":"7274","lat":33.261714,"lon":-117.524339,"nucp":7,"seen_pos":18.5,"altitude":11950,"vert_rate":-64,"track":287,"speed":293,"mlat":[],"tisb":[],"messages":58,"seen":13.3,"rssi":-29.0},
+    {"hex":"ac138c","squawk":"2463","flight":"SWA644  ","lat":32.840649,"lon":-117.135670,"nucp":7,"seen_pos":0.4,"altitude":6800,"vert_rate":-1536,"track":136,"speed":275,"category":"A3","mlat":[],"tisb":[],"messages":299,"seen":0.3,"rssi":-16.2}
+  ]
+}

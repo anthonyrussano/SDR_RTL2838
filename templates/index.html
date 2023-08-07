@@ -31,8 +31,14 @@
                 // Add new markers
                 data.aircraft.forEach(function(aircraft) {
                     if (aircraft.lat && aircraft.lon) {
+                        var popupContent = "<b>Flight:</b> " + (aircraft.flight ? aircraft.flight : "Unknown") +
+                            "<br><b>Altitude:</b> " + (aircraft.altitude ? aircraft.altitude : "Unknown") +
+                            "<br><b>Speed:</b> " + (aircraft.speed ? aircraft.speed : "Unknown") +
+                            "<br><b>Heading:</b> " + (aircraft.heading ? aircraft.heading : "Unknown") +
+                            "<br><b>Vertical Speed:</b> " + (aircraft.vertical_speed ? aircraft.vertical_speed : "Unknown");
+
                         L.marker([aircraft.lat, aircraft.lon])
-                            .bindPopup(aircraft.flight ? aircraft.flight : "Unknown")
+                            .bindPopup(popupContent)
                             .addTo(map);
                     }
                 });

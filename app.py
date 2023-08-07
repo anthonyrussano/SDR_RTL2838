@@ -11,7 +11,15 @@ def index():
 def get_aircraft_data():
     with open('json/aircraft.json', 'r') as f:
         data = json.load(f)
+
+    # Add additional data for each flight
+    for aircraft in data['aircraft']:
+        # Replace the following placeholders with the actual values from your data
+        aircraft['speed'] = 500
+        aircraft['heading'] = 120
+        aircraft['vertical_speed'] = 1000
+
     return jsonify(data)
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=True, host='0.0.0.0', port=5000)
