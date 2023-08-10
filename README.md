@@ -15,7 +15,7 @@ sudo apt install rtl-sdr
 Running the following command, should enable you to listen to the FM radio station broadcasting at 89.5 MHz on your computer, provided that the RTL2838 dongle is set up correctly and you have an appropriate antenna connected.
 
 ```
-rtl_fm -f 89.5M -M wbfm -s 1000000 -r 48000 -g 29.6 | aplay -r 48000 -f S16_LE
+./rtl_fm -f 89.5M -M wbfm -s 1000000 -r 48000 -g 29.6 | aplay -r 48000 -f S16_LE
 ```
 
 This command utilizes the `rtl_fm`` utility to interface with an RTL2838 USB module (commonly known as an RTL-SDR) to receive FM radio, and pipes the output to aplay to play the audio on your computer.

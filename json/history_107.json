@@ -1,0 +1,20 @@
+{ "now" : 1691648334.7,
+  "messages" : 105443,
+  "aircraft" : [
+    {"hex":"ad5395","squawk":"1314","lat":33.644420,"lon":-117.845936,"nucp":7,"seen_pos":16.1,"altitude":17900,"vert_rate":1216,"track":90,"speed":450,"mlat":[],"tisb":[],"messages":140,"seen":13.1,"rssi":-32.2},
+    {"hex":"a6833b","mlat":[],"tisb":[],"messages":16,"seen":161.6,"rssi":-33.4},
+    {"hex":"a44982","flight":"UAL1730 ","altitude":19900,"category":"A3","mlat":[],"tisb":[],"messages":119,"seen":39.3,"rssi":-32.3},
+    {"hex":"ad727a","altitude":15975,"mlat":[],"tisb":[],"messages":9,"seen":67.0,"rssi":-33.3},
+    {"hex":"a26d4a","squawk":"4607","flight":"N2556Q  ","lat":32.761093,"lon":-117.216376,"nucp":7,"seen_pos":0.1,"altitude":4400,"vert_rate":256,"track":340,"speed":118,"category":"A1","mlat":[],"tisb":[],"messages":937,"seen":0.1,"rssi":-18.4},
+    {"hex":"a33272","squawk":"7226","flight":"FFT2828 ","lat":32.681259,"lon":-117.356891,"nucp":7,"seen_pos":0.4,"altitude":10550,"vert_rate":1216,"track":129,"speed":287,"category":"A3","mlat":[],"tisb":[],"messages":632,"seen":0.3,"rssi":-26.8},
+    {"hex":"a3c68c","squawk":"7236","lat":33.451554,"lon":-117.994341,"nucp":7,"seen_pos":66.0,"altitude":27475,"vert_rate":1856,"track":253,"speed":427,"mlat":[],"tisb":[],"messages":239,"seen":38.1,"rssi":-32.6},
+    {"hex":"ab8031","mlat":[],"tisb":[],"messages":261,"seen":227.2,"rssi":-32.5},
+    {"hex":"a57997","mlat":[],"tisb":[],"messages":53,"seen":232.9,"rssi":-33.9},
+    {"hex":"0d08eb","squawk":"3244","altitude":34975,"mlat":[],"tisb":[],"messages":35,"seen":5.7,"rssi":-33.4},
+    {"hex":"a7f804","squawk":"4673","flight":"SKW4629 ","lat":32.800427,"lon":-117.061624,"nucp":7,"seen_pos":0.4,"altitude":5350,"vert_rate":-1344,"track":132,"speed":225,"category":"A3","mlat":[],"tisb":[],"messages":3058,"seen":0.1,"rssi":-20.9},
+    {"hex":"a56862","vert_rate":1728,"track":23,"speed":445,"mlat":[],"tisb":[],"messages":1628,"seen":1.0,"rssi":-31.3},
+    {"hex":"ad8935","altitude":16325,"mlat":[],"tisb":[],"messages":2007,"seen":41.5,"rssi":-31.4},
+    {"hex":"ac32cf","mlat":[],"tisb":[],"messages":808,"seen":174.9,"rssi":-32.9},
+    {"hex":"a06646","mlat":[],"tisb":[],"messages":252,"seen":221.9,"rssi":-34.1}
+  ]
+}

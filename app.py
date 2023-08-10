@@ -1,8 +1,20 @@
 from flask import Flask, jsonify, render_template
 import subprocess
 import json
+import atexit
 
 app = Flask(__name__)
+
+
+# Shutdown handler to release resources
+def shutdown_handler():
+    global sdr_thread
+    if sdr_thread:
+        sdr_thread.stop()  # Implement the stop method for your data collection thread
+
+
+# Register the shutdown handler
+atexit.register(shutdown_handler)
 
 
 @app.route("/")
