@@ -71,3 +71,29 @@ pipenv run python app.py
 
 Example:
 ![map](https://github.com/anthonyrussano/SDR_RTL2838/blob/a130223834111fff5ccb2b0b1d882b72d28f7ba0/Screenshot%20from%202023-08-06%2023-02-36.png)
+
+## TODO
+
+Listen to FM Radio: This is a basic starting point, but it's always fun to use your SDR as a traditional FM radio receiver.
+
+Aircraft Tracking with ADS-B: Aircraft transmit data about their position, altitude, and other details using Automatic Dependent Surveillance-Broadcast (ADS-B). With an SDR and software like Dump1090, you can track aircraft in real-time within your vicinity.
+
+Satellite Image Reception: You can receive weather satellite images directly from satellites like NOAA and Meteor using your SDR. With software like WXtoImg, you can decode and view these images.
+
+Decode Digital Voice: With software like DSD (Digital Speech Decoder), you can decode and listen to various digital voice protocols used by emergency services, businesses, and more.
+
+Capture Images from the ISS: The International Space Station occasionally transmits SSTV (Slow Scan TV) images that you can receive and decode using your SDR.
+
+Listen to International Shortwave Radio: Explore shortwave bands and listen to broadcasts from around the world.
+
+Analyze GSM Signals: While it's illegal to intercept private communications, you can analyze the GSM spectrum and understand its structure.
+
+Radio Astronomy: You can use your SDR for basic radio astronomy experiments, like detecting the rotation of the Milky Way or observing solar flares.
+
+Capture and Decode Pagers: In some areas, pagers are still in use, especially in medical settings. You can capture and decode pager transmissions (but be cautious about privacy laws in your jurisdiction).
+
+RDS and TMC Decoding: Decode Radio Data System (RDS) information transmitted alongside FM radio, which can include station names, song titles, and even Traffic Message Channel (TMC) data in some regions.
+
+Explore Unknown Signals: Use software like SDR# or SDR Console in combination with the "waterfall" display to visually explore the RF spectrum. If you come across unknown signals, you can use tools and communities like SigIDWiki to help identify them.
+
+RF Replay Attacks: Capture and replay RF signals, like those from remote-controlled outlets or garage doors. This can be done using tools like Universal Radio Hacker. (Always ensure you have permission and are acting within legal guidelines.)
