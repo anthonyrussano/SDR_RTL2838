@@ -7,6 +7,7 @@ This repo contains apps for use with the `RTL2838` USB module.
 ```
 sudo apt install rtl-sdr
 ```
+librtlsdr0
 
 # Usage
 

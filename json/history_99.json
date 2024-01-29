@@ -1,19 +1,16 @@
-{ "now" : 1691648094.4,
-  "messages" : 100413,
+{ "now" : 1706507356.7,
+  "messages" : 72072,
   "aircraft" : [
-    {"hex":"a3c68c","vert_rate":2368,"track":258,"speed":384,"mlat":[],"tisb":[],"messages":4,"seen":42.4,"rssi":-36.4},
-    {"hex":"ab8031","squawk":"4622","flight":"DAL2653 ","lat":33.871641,"lon":-117.975941,"nucp":7,"seen_pos":9.6,"altitude":22150,"vert_rate":1472,"track":37,"speed":445,"category":"A3","mlat":[],"tisb":[],"messages":252,"seen":5.4,"rssi":-32.1},
-    {"hex":"a57997","mlat":[],"tisb":[],"messages":52,"seen":64.1,"rssi":-33.7},
-    {"hex":"0d08eb","mlat":[],"tisb":[],"messages":7,"seen":94.4,"rssi":-34.6},
-    {"hex":"ac0f4d","mlat":[],"tisb":[],"messages":59,"seen":217.2,"rssi":-30.6},
-    {"hex":"a7f804","squawk":"4673","flight":"SKW4629 ","lat":33.003021,"lon":-117.328876,"nucp":7,"seen_pos":0.1,"altitude":9350,"vert_rate":-1856,"track":131,"speed":286,"category":"A3","mlat":[],"tisb":[],"messages":936,"seen":0.0,"rssi":-28.9},
-    {"hex":"406e10","mlat":[],"tisb":[],"messages":24,"seen":244.7,"rssi":-33.1},
-    {"hex":"a56862","squawk":"7262","flight":"AAL2328 ","lat":32.674317,"lon":-117.134549,"nucp":7,"seen_pos":0.4,"altitude":12225,"vert_rate":2304,"track":98,"speed":373,"category":"A3","mlat":[],"tisb":[],"messages":975,"seen":0.3,"rssi":-22.3},
-    {"hex":"ad8935","squawk":"1012","flight":"AAL1244 ","lat":32.641219,"lon":-116.899576,"nucp":7,"seen_pos":1.7,"altitude":12150,"vert_rate":1280,"track":96,"speed":385,"category":"A3","mlat":[],"tisb":[],"messages":1882,"seen":0.9,"rssi":-28.9},
-    {"hex":"ac32cf","mlat":[],"tisb":[],"messages":807,"seen":39.5,"rssi":-32.8},
-    {"hex":"a06646","altitude":26225,"mlat":[],"tisb":[],"messages":251,"seen":34.9,"rssi":-33.7},
-    {"hex":"a017a8","mlat":[],"tisb":[],"messages":1321,"seen":290.4,"rssi":-29.3},
-    {"hex":"0d0cd9","mlat":[],"tisb":[],"messages":833,"seen":237.6,"rssi":-32.4},
-    {"hex":"a92bec","mlat":[],"tisb":[],"messages":268,"seen":273.8,"rssi":-30.1}
+    {"hex":"a9e8cf","squawk":"1200","flight":"N738AM  ","lat":33.179581,"lon":-117.091241,"nucp":7,"seen_pos":0.0,"altitude":2775,"vert_rate":-128,"track":109,"speed":116,"category":"A7","mlat":[],"tisb":[],"messages":536,"seen":0.0,"rssi":-4.3},
+    {"hex":"aac118","squawk":"3251","flight":"SWA347  ","lat":32.948822,"lon":-117.325854,"nucp":6,"seen_pos":0.5,"altitude":10125,"vert_rate":-512,"track":145,"speed":279,"category":"A3","mlat":[],"tisb":[],"messages":394,"seen":0.2,"rssi":-26.0},
+    {"hex":"a4ec6b","squawk":"4623","flight":"SWA2983 ","lat":33.038818,"lon":-116.424811,"nucp":7,"seen_pos":0.9,"altitude":13800,"vert_rate":-1472,"track":207,"speed":306,"category":"A3","mlat":[],"tisb":[],"messages":1133,"seen":0.1,"rssi":-24.4},
+    {"hex":"a7858e","mlat":[],"tisb":[],"messages":145,"seen":90.3,"rssi":-31.0},
+    {"hex":"a67452","lat":33.509766,"lon":-116.362244,"nucp":7,"seen_pos":34.0,"altitude":31500,"vert_rate":896,"track":95,"speed":454,"mlat":[],"tisb":[],"messages":1090,"seen":2.9,"rssi":-30.3},
+    {"hex":"ac8009","squawk":"7222","flight":"SWA4446 ","lat":33.385217,"lon":-116.368757,"nucp":7,"seen_pos":1.3,"altitude":38625,"vert_rate":1856,"track":27,"speed":453,"category":"A3","mlat":[],"tisb":[],"messages":2785,"seen":0.0,"rssi":-29.2},
+    {"hex":"0c20f3","squawk":"7351","flight":"CMP382  ","lat":33.389740,"lon":-116.885797,"nucp":7,"seen_pos":6.7,"altitude":36000,"vert_rate":0,"track":316,"speed":451,"category":"A3","mlat":[],"tisb":[],"messages":4804,"seen":0.1,"rssi":-27.6},
+    {"hex":"a56be4","flight":"N44886  ","lat":32.961917,"lon":-117.019473,"nucp":7,"seen_pos":25.2,"altitude":4800,"vert_rate":64,"track":147,"speed":107,"category":"A1","mlat":[],"tisb":[],"messages":2633,"seen":5.8,"rssi":-30.5},
+    {"hex":"a3524e","altitude":5000,"vert_rate":-512,"track":251,"speed":196,"mlat":[],"tisb":[],"messages":1515,"seen":16.8,"rssi":-30.1},
+    {"hex":"a12710","mlat":[],"tisb":[],"messages":1014,"seen":169.5,"rssi":-30.9},
+    {"hex":"~adf9a9","type":"adsb_other","mlat":[],"tisb":[],"messages":1668,"seen":1.6,"rssi":-26.5}
   ]
 }

@@ -29,7 +29,6 @@ def get_aircraft_data():
 
     # Add additional data for each flight
     for aircraft in data["aircraft"]:
-        # Replace the following placeholders with the actual values from your data
         aircraft["speed"] = 500
         aircraft["heading"] = 120
         aircraft["vertical_speed"] = 1000
